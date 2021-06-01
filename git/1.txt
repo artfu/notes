@@ -1,0 +1,25 @@
+1. Getting started - 
+
+*THE THREE STATES*
+
+- modieied
+    You have changed the file but have not commited it to your database.
+
+- staged
+    You have maked a modified file in its current version to go into your
+    next commit snapshot.
+
+- committed
+    The data is safely stored in your local database.
+
+Working                 Staging                 .git directory
+Directory               Area                    (Repository)
+    |                    |                           |
+    | <             Check Out the Project            |        
+    |<<==================+===========================|
+    | <                  |                           |
+    |   Stage Fixes    > |                           |
+    |==================>>|                           |
+    |                  > |          Commit         > |
+    |                    |=========================>>|
+    |                    |                         > |
