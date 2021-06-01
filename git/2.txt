@@ -1,0 +1,17 @@
+2. Git Basics -
+==============
+
+obtain a Git repository in one of two ways:
+- take a local directory that is currently not under version control,
+    and turn it into a Git respository or
+        1. [cd] or [mkdir] a directory
+        2. $ git init 
+        /* 
+         * This creates a new subdirectory .git that contains all of your
+         * necessary repository files
+         */
+
+- clone an existing Git respository from elsewhere
+        $ git clone https://github.com/artfu/notes 
+
+

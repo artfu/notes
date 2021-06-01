@@ -1,4 +1,5 @@
 1. Getting started - 
+====================
 
 *THE THREE STATES*
 
@@ -23,3 +24,15 @@ Directory               Area                    (Repository)
     |                  > |          Commit         > |
     |                    |=========================>>|
     |                    |                         > |
+
+*GETTING HELP*
+$ git help <verb>           // version 1
+$ git <verb> --help         // version 2
+$ man git-<verb>            // version 3
+The three way open same files -- manpage help
+
+if you need a quick refresher on the available options for a git command,
+   Try this: 
+   $ git <verb> -h
+
+
