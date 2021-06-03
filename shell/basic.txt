@@ -1,0 +1,61 @@
+变量：
+- use $ to get var's value. 
+    eg: solution=Hello
+        $solution   
+        output: Hello
+    * There is NO *SPACE* between equal mark *
+
+- read get var from input, use Enter to stop input
+
+条件：
+- if test -f xx.c
+    then
+    ...
+    fi
+
+equal to 
+
+- if [ -f xx.c ]
+    then
+    ...
+    fi
+
+控制:
+-if
+    if [condition]
+    then
+        [statement]
+    else
+        [statement]
+    fi
+
+-elif
+
+-for
+    for [variable] in [value]
+    do
+        [statement]
+    done
+
+- while
+    while [condition]; do
+        [statement]
+    done
+
+- until
+    until [conditon]
+    do
+        [statement]
+    done
+
+- case
+    case [variable] in
+        pattern [ | pattern] ...) statements;;
+        pattern [ | pattern] ...) statements;;
+        ...
+    esac
+
+函数：
+- function_name() {
+    [statement]
+}
