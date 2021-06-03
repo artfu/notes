@@ -29,7 +29,8 @@ case insensitive due to the **i** flag
 case insensitive because **\c** make the search case insensitive
 
 > **:%s/foo/bar/gcI**   
-case sensitive due to the **I** flag
+case sensitive due to the **I** flag    
+
 > **:%s/foo\C/bar/gc**  
 case sensitive because **\C** make the search case insensitive
 
@@ -58,7 +59,7 @@ Vim will output something like:
 ***%*** flag for the all lines
 
 > **:5,12s/foo/bar/g**      
-***[start_line],[end_line]*** from start line to end line (inclusive)
+***[start_line],[end_line]*** from start line to end line (inclusive)   
     - current line(.)   
     - the last line($)  
     - the [n] next line(+n)
